@@ -3,7 +3,7 @@
 create database practice ;
 use practice ;
 
--- and importing the dataset (csv) file
+-- after importing the dataset (csv) file
 
 SELECT * FROM `walmartsalesdata.csv` ;
 
