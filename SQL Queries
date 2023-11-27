@@ -58,7 +58,7 @@ set `time of the day` = (case
                        when time between "12:00:00" and "15:59:59" then "afternoon"
                        when time between "16:00:00" and "17:59:59" then "evening"
                        else "night"
-                       end)
+                       end) ;
 
 -- Q4) Create a new column named "dayname" . 
 
@@ -66,7 +66,7 @@ alter table walmart
 add column dayname varchar(20) ;
 
 update walmart
-set dayname = dayname(date)
+set dayname = dayname(date) ;
 
 
 ----------------------------------------------------------------------------------------------
