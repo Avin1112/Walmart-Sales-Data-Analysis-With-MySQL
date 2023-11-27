@@ -1,24 +1,13 @@
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-youtube video link :
-
-https://www.youtube.com/watch?v=Qr1Go2gP8fo
-
-Github link :
-
-https://github.com/Princekrampah/WalmartSalesAnalysis
-
-dataset link :
-
-https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/WalmartSalesData.csv.csv
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-
+-- Creating a new database 
 
 create database practice ;
 use practice ;
 
+-- and importing the dataset (csv) file
+
 SELECT * FROM `walmartsalesdata.csv` ;
+
+-- Changing the table name from " walmartsalesdata.csv " to just " walmart " .
 
 alter table `walmartsalesdata.csv`
 rename to walmart ;
